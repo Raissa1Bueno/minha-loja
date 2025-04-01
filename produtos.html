@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Anime Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Produtos de Anime</h1>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="produto1.jpg" alt="Produto 1">
+                <h2>Figura de Naruto</h2>
+                <p>Preço: R$ 99,90</p>
+                <button onclick="adicionarAoCarrinho('Figura de Naruto', 99.90)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-item">
+                <img src="produto2.jpg" alt="Produto 2">
+                <h2>Action Figure de Goku</h2>
+                <p>Preço: R$ 149,90</p>
+                <button onclick="adicionarAoCarrinho('Action Figure de Goku', 149.90)">Adicionar ao Carrinho</button>
+            </div>
+
+            <!-- Adicione mais produtos conforme necessário -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Anime Shop. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
